@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="assets/jquery.js"></script>
+    <script type="text/javascript" src="assets/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <title>Zettabyte Challenge 2</title>
+</head>
+<body>
+    <div class="bg-grey">
+        <div class="jumbotron custom-jumbotron bg-title text-center text-white m-0">
+            <h1>Simple Pricing!</h1>
+            The most advanced customer support tools with a simple and affordable pricing. and you can always try for 30 days. <br>
+            free!
+        </div>
+        <div class="container position-relative">
+            <div class="container-sm">
+                <div class="row px-5" id="card-section">
+                    <div class="col-sm-4">
+                        <div class="card" id="card-1">
+                            <div class="bg-dark">
+                                <div class="text-white m-3">BASIC</div>
+                            </div>
+                            <div class="text-center pt-5 pb-4">
+                                <span class="text-muted"><sup>$</sup></span>
+                                <span class="display-4">4</span>
+                                <span class="text-muted">/month</span>
+                            </div>
+                            <hr class="mx-5 !important">
+                            <div class="mx-5">
+                                <div><strong>10</strong> Projects</div>
+                                <div><strong>10</strong> Pages</div>
+                                <div><strong>100</strong> Mb Disk Spaces</div>
+                            </div>
+                            <div class="text-center my-4">
+                                <button class="btn btn-primary" onclick="buyNowSelected('#card-1')">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card" id="card-2">
+                            <div class="bg-dark text-white">
+                                <div class="text-white m-3">
+                                    <span>STANDARD</span>
+                                    <span class="float-right small">Save 15%</span>
+                                </div>
+                            </div>
+                            <div class="text-center pt-5 pb-4">
+                                <span class="text-muted"><sup>$</sup></span>
+                                <span class="display-4">8</span>
+                                <span class="text-muted">/month</span>
+                            </div>
+                            <hr class="mx-5 !important">
+                            <div class="mx-5">
+                                <div><strong>20</strong> Projects</div>
+                                <div><strong>20</strong> Pages</div>
+                                <div><strong>200</strong> Mb Disk Spaces</div>
+                            </div>
+                            <div class="text-center my-4">
+                                <button class="btn btn-primary" onclick="buyNowSelected('#card-2')">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card" id="card-3">
+                            <div class="bg-dark">
+                                <div class="text-white m-3">ADVANCED</div>
+                            </div>
+                            <div class="text-center pt-5 pb-4">
+                                <span class="text-muted"><sup>$</sup></span>
+                                <span class="display-4">12</span>
+                                <span class="text-muted">/month</span>
+                            </div>
+                            <hr class="mx-5 !important">
+                            <div class="mx-5">
+                                <div><strong>40</strong> Projects</div>
+                                <div><strong>40</strong> Pages</div>
+                                <div><strong>500</strong> Mb Disk Spaces</div>
+                            </div>
+                            <div class="text-center my-4">
+                                <button class="btn btn-primary" onclick="buyNowSelected('#card-3')">BUY NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="text-center m-5"><h3>Frequently Asked Questions</h3></div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="font-weight-bold">How does free trial work?</div>
+                        <div class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="font-weight-bold">Can I cancel any time?</div>
+                        <div class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="globalAlertContainer" style="position:fixed; bottom: 0; left: 25px;"></div>
+    </div>
+</body>
+</html>

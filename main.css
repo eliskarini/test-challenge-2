@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand';
+}
+
+.bg-title {
+    background-color: #00223d;
+}
+
+sup {
+    top: -2.5em;
+}
+
+.card {
+    transition: transform .5s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+
+.bg-grey,
+.card.bg-selected {
+    background-color: #ddd;
+}
+
+.custom-jumbotron {
+    height: 450px;
+}
+
+#card-section {
+    margin-top: -200px;
+}
